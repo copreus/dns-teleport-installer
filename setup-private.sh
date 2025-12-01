@@ -247,8 +247,7 @@ EOF
     ufw allow 22/tcp       
     ufw allow 53           
     ufw allow 443/tcp      
-    ufw allow 51820/udp    
-    ufw allow 51821/tcp    
+  
 
     echo "Allowing Private Subnets"
     ufw allow from 10.0.0.0/8 
